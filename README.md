@@ -9,13 +9,13 @@ Kubernetes
 <br>
 <br>
 
-- [VS Code Kubernetes Extension Nedir?](#vs-code-kubernetes-extension-nedir)
+- [Kubernetes Nedir?](#kubernetes-nedir)
 
 <br>
 <br>
 
-## VS Code Kubernetes Extension Nedir?
+## Kubernetes Nedir?
 
 <br>
 
-Kubernetes kümelerinizle etkileşimde bulunmanızı, uygulamalarınızı dağıtmanızı, izlemenizi ve yönetmenizi sağlar. Uygulama geliştirme sürecinde size yardımcı olur. YAML dosyalarınızı düzenlemenize ve uygulamalarınızı hızlıca dağıtmanıza olanak tanır. Ayrıca kod yazarken Kubernetes nesnelerini otomatik olarak tamamlar ve hata ayıklama süreçlerini kolaylaştırır. Bu sayede geliştirme ve operasyon süreçlerinizi daha verimli hale getirir.
+Kubernetes, açık kaynaklı bir konteyner orkestrasyon platformudur. Google tarafından geliştirilmiş ve daha sonra Cloud Native Computing Foundation (CNCF) tarafından yönetilen Kubernetes, konteynerleştirilmiş uygulamaların dağıtımını, yönetimini ve ölçeklendirilmesini otomatikleştirir.
