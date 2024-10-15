@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: vote-result
+spec:
+  rules:
+    - host: vote.caglargokcen.com
+      http:
+        paths:
+          - pathType: Prefix
+            path: /
+            backend:
+              service:
+                name: vote
+                port:
+                  number: 80
+    - host: result.caglargokcen.com
+      http:
+        paths:
+          - pathType: Prefix
+            path: /
+            backend:
+              service:
+                name: result
+                port:
+                  number: 80
