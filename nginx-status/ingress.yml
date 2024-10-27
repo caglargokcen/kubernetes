@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nginx-status
+  namespace: nginx-status-production
+  labels:
+    app: nginx-status
+spec:
+  rules:
+    - host: nginx.caglargokcen.com
+      http:
+        paths:
+          - pathType: Prefix
+            path: /
+            backend:
+              service:
+                name: nginx-status
+                port:
+                  number: 80
